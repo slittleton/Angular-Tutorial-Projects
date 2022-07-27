@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+nav a.active{
+    color:rgb(0, 138, 180)
+}
+nav a{
+    margin: 1rem;
+    padding:.5rem;
+    /* box-shadow: 4px 4px 4px rgb(151, 151, 151); */
+    border:1px solid gray;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+li{
+    /* margin-top: .4rem; */
+    border-radius: .5rem;
+    padding: .5rem;
+    width: 100px;
+}
+
+li.selected{
+    background-color:rgb(197, 197, 197);
+    color: white;
+    
+
+
+}
